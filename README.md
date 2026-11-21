@@ -72,7 +72,11 @@ Streamlit Dashboard ◀── Evaluation (MAE, RMSE, R²) ◀── MultiOutputR
 
 ##  Dataset & Feature Engineering
 
-The application uses **`city_day.csv`** (historical city-level daily air quality observations) containing `City`, `Date`, `PM2.5`, `PM10`, `NO2`, `CO`, `SO2`, `O3`, and `AQI`.
+This project uses the **Air Quality Data in India** (`city_day.csv`) dataset sourced from the Central Pollution Control Board (CPCB) via Kaggle:
+
+* **Dataset Link:** [Air Quality Data in India (Kaggle)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
+* **Required File:** `city_day.csv`
+* **Setup:** Download `city_day.csv` from the link above and place it in the root directory alongside `app.py` (or specify its custom file path in the Streamlit sidebar).
 
 ### Engineered Input Features (14 Total)
 * **Ambient Pollutants & Index (7):** `PM2.5`, `PM10`, `NO2`, `CO`, `SO2`, `O3`, `AQI`
