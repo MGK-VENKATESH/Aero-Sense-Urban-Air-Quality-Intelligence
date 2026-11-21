@@ -86,7 +86,7 @@ The application uses **`city_day.csv`** (historical city-level daily air quality
 ---
 
 ##  Installation & Setup
-https://github.com/MGK-VENKATESH/Aero-Sense-Urban-Air-Quality-Intelligence-/edit/main/README.md
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/MGK-VENKATESH/Aero-Sense-Urban-Air-Quality-Intelligence
